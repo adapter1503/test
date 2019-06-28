@@ -16,7 +16,7 @@ $req_4 = file_get_contents('SQLrequests/sql4.sql');
 
 $maxAge = $connection->execute('selectOne', $req_1);
 $ageLessThanMax = $connection->execute('selectOne', $req_2);
-//$update = $connection->execute('selectOne', $req_3);
+$update = $connection->execute('execute', $req_3);
 $maxAgePersons = $connection->execute('selectAll', $req_4);
 
 ?>
