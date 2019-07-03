@@ -1,0 +1,98 @@
+2019-06-27 13:48:05 INFO: PDOAdapter -> selectOne() $sql=SELECT MAX(age) FROM test.person; $args=
+2019-06-27 13:48:05 INFO: PDOAdapter -> selectOne() $sql=SELECT lastname, firstname, mother_id, age 
+FROM test.person 
+WHERE (mother_id IS null AND age < (SELECT MAX(age) FROM test.person))
+LIMIT 1; $args=
+2019-06-27 15:28:42 INFO: PDOAdapter -> selectOne() $sql=SELECT age
+FROM person
+ORDER BY age DESC
+LIMIT 1;
+
+/*SELECT MAX(age) 
+FROM test.person;*/ $args=
+2019-06-27 15:28:42 INFO: PDOAdapter -> selectOne() $sql=SELECT lastname, firstname, mother_id, age 
+FROM test.person 
+WHERE (mother_id IS null AND age < (SELECT MAX(age) FROM test.person))
+LIMIT 1; $args=
+2019-06-27 23:52:05 INFO: PDOAdapter -> selectOne() $sql=SELECT age
+FROM person
+ORDER BY age DESC
+LIMIT 1;
+
+/*SELECT MAX(age) 
+FROM test.person;*/ $args=
+2019-06-27 23:53:37 INFO: PDOAdapter -> selectOne() $sql=SELECT age
+FROM person
+ORDER BY age DESC
+LIMIT 1;
+
+/*SELECT MAX(age) 
+FROM test.person;*/ $args=
+2019-06-27 23:58:21 INFO: PDOAdapter -> selectOne() $sql=SELECT age
+FROM person
+ORDER BY age DESC
+LIMIT 1;
+
+/*SELECT MAX(age) 
+FROM test.person;*/ $args=
+2019-06-27 23:58:22 INFO: PDOAdapter -> selectOne() $sql=SELECT age
+FROM person
+ORDER BY age DESC
+LIMIT 1;
+
+/*SELECT MAX(age) 
+FROM test.person;*/ $args=
+2019-06-27 23:59:34 INFO: PDOAdapter -> selectOne() $sql=SELECT age
+FROM person
+ORDER BY age DESC
+LIMIT 1;
+
+/*SELECT MAX(age) 
+FROM test.person;*/ $args=
+2019-06-28 00:05:44 INFO: PDOAdapter -> selectOne() $sql=SELECT age
+FROM person
+ORDER BY age DESC
+LIMIT 1;
+
+/*SELECT MAX(age) 
+FROM test.person;*/ $args=
+2019-06-28 00:06:07 INFO: PDOAdapter -> selectOne() $sql=SELECT age
+FROM person
+ORDER BY age DESC
+LIMIT 1;
+
+/*SELECT MAX(age) 
+FROM test.person;*/ $args=
+2019-06-28 00:11:08 INFO: PDOAdapter -> selectOne() $sql=SELECT age
+FROM person
+ORDER BY age DESC
+LIMIT 1;
+
+/*SELECT MAX(age) 
+FROM test.person;*/ $args=
+2019-06-28 01:43:45 INFO: PDOAdapter -> selectOne() $sql=SELECT
+    age
+FROM
+    person
+ORDER BY
+    age DESC
+LIMIT
+    1;
+
+/*SELECT
+  MAX(age)
+FROM
+  test.person;*/ $args=
+2019-06-28 01:48:15 INFO: PDOAdapter -> selectOne() $sql=SELECT
+    age
+FROM
+    person
+ORDER BY
+    age DESC
+LIMIT
+    1;
+
+/*SELECT
+  MAX(age)
+FROM
+  test.person;*/ $args=
