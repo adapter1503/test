@@ -6,6 +6,10 @@
           <option name="url" value="http://bitbucket.org" />
           <option name="userName" value="vasrom" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gl.lms-service.ru" />
+          <option name="userName" value="v.romanov@lms-service.ru" />
+        </UrlAndUserName>
       </list>
     </option>
   </component>
