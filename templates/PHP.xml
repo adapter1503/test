@@ -1,5 +1,10 @@
 <templateSet group="PHP">
-  <template name="vd" value="echo '&lt;pre&gt;';&#10;var_dump(&#10;    __FILE__,&#10;    __LINE__,&#10;    $END$&#10;);&#10;echo '&lt;/pre&gt;';&#10;die;" description="vd with die statement" toReformat="true" toShortenFQNames="true">
+  <template name="vd" value="echo '&lt;pre&gt;';&#10;var_dump(&#10;    __FILE__,&#10;    __LINE__,&#10;    $END$&#10;);&#10;echo '&lt;/pre&gt;';" description="vd without die statement" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="vdd" value="echo '&lt;pre&gt;';&#10;var_dump(&#10;    __FILE__,&#10;    __LINE__,&#10;    $END$&#10;);&#10;echo '&lt;/pre&gt;';&#10;die;" description="vd with die statement" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
     </context>
