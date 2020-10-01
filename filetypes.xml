@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="achievementslist" type="Handlebars/Mustache" />
+      <mapping pattern="general_obplan_info.mustache" type="PLAIN_TEXT" />
       <mapping pattern="the" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
