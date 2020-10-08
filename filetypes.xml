@@ -5,6 +5,7 @@
       <mapping pattern="uploadform" type="PHP" />
       <mapping pattern="general_obplan_info.mustache" type="PLAIN_TEXT" />
       <mapping pattern="the" type="PLAIN_TEXT" />
+      <mapping pattern="obplans_list_table.mustache" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
