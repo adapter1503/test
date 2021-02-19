@@ -2,10 +2,10 @@
   <component name="EditorSettings">
     <option name="languageBreadcrumbsMap">
       <map>
+        <entry key="Blade" value="true" />
         <entry key="PHP" value="true" />
       </map>
     </option>
     <option name="STRIP_TRAILING_SPACES" value="Whole" />
-    <option name="IS_INDENT_GUIDES_SHOWN" value="false" />
   </component>
 </application>
