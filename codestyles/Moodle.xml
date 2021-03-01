@@ -13,6 +13,9 @@
   <XML>
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
+  <editorconfig>
+    <option name="ENABLED" value="false" />
+  </editorconfig>
   <codeStyleSettings language="PHP">
     <option name="RIGHT_MARGIN" value="132" />
     <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />

@@ -1,13 +1,13 @@
 <application>
-  <component name="FileTypeManager" version="17">
+  <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="achievementslist" type="Handlebars/Mustache" />
       <mapping pattern="uploadform" type="PHP" />
-      <mapping pattern="general_obplan_info.mustache" type="PLAIN_TEXT" />
-      <mapping pattern="the" type="PLAIN_TEXT" />
-      <mapping pattern="asdf" type="PLAIN_TEXT" />
       <mapping pattern="suspended" type="PLAIN_TEXT" />
+      <mapping pattern="the" type="PLAIN_TEXT" />
       <mapping pattern="obplans_list_table.mustache" type="PLAIN_TEXT" />
+      <mapping pattern="general_obplan_info.mustache" type="PLAIN_TEXT" />
+      <mapping pattern="asdf" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
